@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Galaxy Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="space" id="space"></div>
+    
+    <div class="login-container">
+        <div class="login-box">
+            <div class="login-header">
+                <img src="Gemini_Generated_Image_uvfn50uvfn50uvfn.jpg" alt="Logo" class="login-logo">
+                <h2>Criar Conta</h2>
+                <p>Junte-se à nossa comunidade espacial</p>
+            </div>
+            
+            <form class="login-form" id="registerForm">
+                <div class="form-group">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Nome de Usuário</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Confirmar Senha</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+                
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox" name="terms" required>
+                        Eu concordo com os termos de uso
+                    </label>
+                </div>
+                
+                <button type="submit" class="login-button">Criar Conta</button>
+                
+                <div class="register-link">
+                    Já tem uma conta? <a href="login.html">Faça login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="register.js"></script>
+</body>
+</html> 

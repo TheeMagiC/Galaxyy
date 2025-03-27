@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Blog - Explorando o Universo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="Gemini_Generated_Image_uvfn50uvfn50uvfn.jpg" alt="Logo Espacial">
+            Galaxy Blog
+        </a>
+        
+        <nav class="nav-menu">
+            <a href="#" class="active">Home</a>
+            <a href="#">Explorar</a>
+            <a href="#">Galáxias</a>
+            <a href="#">Planetas</a>
+            <a href="#">Sobre</a>
+            <a href="login.html" class="login-link">Login</a>
+        </nav>
+
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Pesquisar...">
+            <button class="search-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="space" id="space"></div>
+    
+    <main class="main-content">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Bem-vindo ao Galaxy Blog</h1>
+                <p class="hero-text">Explore as maravilhas do universo e descubra os mistérios do cosmos</p>
+                <a href="#explore" class="cta-button">Começar Exploração</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Galáxia">
+            </div>
+        </section>
+
+        <section id="explore" class="features-section">
+            <h2>O que você encontrará aqui</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-image" style="background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <div class="feature-icon">🌌</div>
+                    <h3>Galáxias</h3>
+                    <p>Explore diferentes tipos de galáxias e suas características únicas</p>
+                    <button class="feature-button">Explorar</button>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image" style="background-image: url('https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <div class="feature-icon">🌍</div>
+                    <h3>Planetas</h3>
+                    <p>Conheça os planetas do nosso sistema solar e além</p>
+                    <button class="feature-button">Explorar</button>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <div class="feature-icon">⭐</div>
+                    <h3>Estrelas</h3>
+                    <p>Descubra o ciclo de vida das estrelas e suas propriedades</p>
+                    <button class="feature-button">Explorar</button>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <div class="feature-icon">🌠</div>
+                    <h3>Fenômenos</h3>
+                    <p>Assista aos mais incríveis fenômenos espaciais</p>
+                    <button class="feature-button">Explorar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-news">
+            <h2>Últimas Descobertas</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image" style="background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <div class="news-content">
+                        <h3>Novos Exoplanetas Descobertos</h3>
+                        <p>Astronomos descobrem três novos planetas potencialmente habitáveis...</p>
+                        <div class="news-meta">
+                            <span class="date">15 Mar 2024</span>
+                            <span class="category">Exoplanetas</span>
+                        </div>
+                        <a href="#" class="read-more">Ler mais</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <div class="news-content">
+                        <h3>Mistérios da Matéria Escura</h3>
+                        <p>Novas teorias sobre a natureza da matéria escura são propostas...</p>
+                        <div class="news-meta">
+                            <span class="date">12 Mar 2024</span>
+                            <span class="category">Cosmologia</span>
+                        </div>
+                        <a href="#" class="read-more">Ler mais</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="solar-system">
+            <h2>Nosso Sistema Solar</h2>
+            <div class="solar-system-content">
+                <div class="planet-info">
+                    <div class="planet-image" style="background-image: url('https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <h3>O Sol</h3>
+                    <p>Nossa estrela central, fonte de luz e energia para todo o sistema solar. Com uma temperatura superficial de aproximadamente 5.500°C, o Sol é responsável por sustentar a vida na Terra.</p>
+                    <ul class="planet-facts">
+                        <li>Idade: 4.6 bilhões de anos</li>
+                        <li>Diâmetro: 1.4 milhões de km</li>
+                        <li>Tipo: Anã amarela</li>
+                    </ul>
+                    <button class="planet-button">Ver Detalhes</button>
+                </div>
+                <div class="planet-info">
+                    <div class="planet-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <h3>Planetas Rochosos</h3>
+                    <p>Mercúrio, Vênus, Terra e Marte formam o grupo dos planetas rochosos, caracterizados por suas superfícies sólidas e composição similar.</p>
+                    <ul class="planet-facts">
+                        <li>Mercúrio: O menor e mais próximo do Sol</li>
+                        <li>Vênus: O planeta mais quente</li>
+                        <li>Terra: Nosso lar cósmico</li>
+                        <li>Marte: O planeta vermelho</li>
+                    </ul>
+                    <button class="planet-button">Ver Detalhes</button>
+                </div>
+                <div class="planet-info">
+                    <div class="planet-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <h3>Gigantes Gasosos</h3>
+                    <p>Júpiter, Saturno, Urano e Netuno são os gigantes gasosos, compostos principalmente por hidrogênio e hélio.</p>
+                    <ul class="planet-facts">
+                        <li>Júpiter: O maior planeta</li>
+                        <li>Saturno: Famoso por seus anéis</li>
+                        <li>Urano: O planeta inclinado</li>
+                        <li>Netuno: O planeta mais distante</li>
+                    </ul>
+                    <button class="planet-button">Ver Detalhes</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="space-exploration">
+            <h2>Exploração Espacial</h2>
+            <div class="exploration-timeline">
+                <div class="timeline-item">
+                    <div class="year">1957</div>
+                    <div class="event">
+                        <div class="event-image" style="background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                        <h3>Lançamento do Sputnik 1</h3>
+                        <p>O primeiro satélite artificial a orbitar a Terra, marcando o início da era espacial.</p>
+                        <button class="event-button">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">1969</div>
+                    <div class="event">
+                        <div class="event-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                        <h3>Pouso na Lua</h3>
+                        <p>Neil Armstrong e Buzz Aldrin se tornam os primeiros humanos a pisar na Lua.</p>
+                        <button class="event-button">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">1977</div>
+                    <div class="event">
+                        <div class="event-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                        <h3>Voyager 1 e 2</h3>
+                        <p>Lançamento das sondas que exploraram os planetas externos e continuam viajando pelo espaço interestelar.</p>
+                        <button class="event-button">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">1990</div>
+                    <div class="event">
+                        <div class="event-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                        <h3>Telescópio Espacial Hubble</h3>
+                        <p>Lançamento do telescópio que revolucionou nossa visão do universo.</p>
+                        <button class="event-button">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="space-facts">
+            <h2>Fatos Fascinantes</h2>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <div class="fact-image" style="background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <div class="fact-icon">🌍</div>
+                    <h3>O Universo em Números</h3>
+                    <ul>
+                        <li>Idade estimada: 13.8 bilhões de anos</li>
+                        <li>Diâmetro observável: 93 bilhões de anos-luz</li>
+                        <li>Número de galáxias: 2 trilhões</li>
+                    </ul>
+                    <button class="fact-button">Ver Mais</button>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <div class="fact-icon">⭐</div>
+                    <h3>Estrelas</h3>
+                    <ul>
+                        <li>Número de estrelas na Via Láctea: 100-400 bilhões</li>
+                        <li>Maior estrela conhecida: UY Scuti</li>
+                        <li>Temperatura do Sol: 5.500°C (superfície)</li>
+                    </ul>
+                    <button class="fact-button">Ver Mais</button>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')"></div>
+                    <div class="fact-icon">🌌</div>
+                    <h3>Galáxias</h3>
+                    <ul>
+                        <li>Tipos principais: Espiral, Elíptica, Irregular</li>
+                        <li>Via Láctea: 100.000 anos-luz de diâmetro</li>
+                        <li>Andrômeda: Nossa galáxia vizinha</li>
+                    </ul>
+                    <button class="fact-button">Ver Mais</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="galaxy-carousel">
+            <h2>Curiosidades da Galáxia</h2>
+            <div class="carousel-container">
+                <button class="carousel-button prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                </button>
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <div class="slide-content">
+                            <div class="slide-image" style="background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80')"></div>
+                            <div class="slide-icon">🌌</div>
+                            <h3>Via Láctea</h3>
+                            <p>A Via Láctea tem aproximadamente 100.000 anos-luz de diâmetro e contém entre 100 e 400 bilhões de estrelas.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-content">
+                            <div class="slide-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80')"></div>
+                            <div class="slide-icon">⭐</div>
+                            <h3>Buraco Negro</h3>
+                            <p>No centro da nossa galáxia existe um buraco negro supermassivo chamado Sagitário A*, com massa equivalente a 4 milhões de sóis.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-content">
+                            <div class="slide-image" style="background-image: url('https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80')"></div>
+                            <div class="slide-icon">🌍</div>
+                            <h3>Posição Solar</h3>
+                            <p>Nosso Sol está localizado em um dos braços espirais da Via Láctea, a cerca de 27.000 anos-luz do centro galáctico.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-content">
+                            <div class="slide-image" style="background-image: url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80')"></div>
+                            <div class="slide-icon">🌠</div>
+                            <h3>Colisão Galáctica</h3>
+                            <p>Em aproximadamente 4 bilhões de anos, a Via Láctea colidirá com a galáxia de Andrômeda, formando uma nova galáxia elíptica.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-content">
+                            <div class="slide-image" style="background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80')"></div>
+                            <div class="slide-icon">💫</div>
+                            <h3>Matéria Escura</h3>
+                            <p>Cerca de 90% da massa da nossa galáxia é composta por matéria escura, uma forma misteriosa de matéria que não emite luz.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-button next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
+                <div class="carousel-dots"></div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="newsletter-content">
+                <h2>Fique por dentro das novidades</h2>
+                <p>Inscreva-se para receber as últimas notícias e descobertas do universo</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor email" required>
+                    <button type="submit">Inscrever-se</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nós</h3>
+                <p>Galaxy Blog é sua fonte de informações sobre o universo e suas maravilhas.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Explorar</a></li>
+                    <li><a href="#">Galáxias</a></li>
+                    <li><a href="#">Planetas</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: contato@galaxyblog.com</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Galaxy Blog. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="auth.js"></script>
+    <script src="interactive.js"></script>
+</body>
+</html>
